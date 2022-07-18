@@ -1,0 +1,25 @@
+.navbar-brand {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.nav-item {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.nav-item .l {
+    margin-right: 13px;
+}
+
+.navbar-custom {
+    background-color: #151723;
+}
+
+.navbar-dark .nav-item .nav-link, #home {
+    color: #fff;
+}
+
+.navbar-dark .nav-item .nav-link:hover {
+    color: crimson;
+}
