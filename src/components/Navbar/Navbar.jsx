@@ -15,16 +15,16 @@ function Navbar() {
                 <div className="collapse navbar-collapse" id="navmenu">
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item">
-                            <a href="#home" className="nav-link l">Home</a>
+                            <Link className="nav-link l" to={'/'}>Home</Link>
                         </li>
                         <li className="nav-item">
                             <a href="#about" className="nav-link l">About</a>
                         </li>
                         <li className="nav-item">
-                            <a href="#skills" className="nav-link l">Skills</a>
+                            <Link className="nav-link l" to={'#skills'}>Skills</Link>
                         </li>
-                        <li className="nav-item">
-                            <a href="#portfolio" className="nav-link l">Portfolio</a>
+                        <li className='nav-item'>
+                            <Link className="nav-link l" to={'/portfolios'}>Portfolio</Link>
                         </li>
                         <li className="nav-item">
                             <a href="#contact" className="nav-link">Contact</a>
