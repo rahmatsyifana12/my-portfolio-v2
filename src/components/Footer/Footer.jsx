@@ -1,8 +1,14 @@
+import './Footer.css';
+
 function Footer() {
     return (
-        <div>
-            <h1>Footer</h1>
-        </div>
+        <footer id="footer" className="footer">
+            <div className="container">
+                <div className="content">
+                    Copyright &copy; 2022 Rahmat Syifana Jaelani
+                </div>
+            </div>
+        </footer>
     );
 }
 
