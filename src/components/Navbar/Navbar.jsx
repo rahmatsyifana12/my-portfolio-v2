@@ -20,8 +20,8 @@ function Navbar() {
                         <li className="nav-item">
                             <a href="#about" className="nav-link l">About</a>
                         </li>
-                        <li className="nav-item">
-                            <Link className="nav-link l" to={'#skills'}>Skills</Link>
+                        <li className="nav-item" >
+                            <Link className="nav-link l" to={'/'}>Skills</Link>
                         </li>
                         <li className='nav-item'>
                             <Link className="nav-link l" to={'/portfolios'}>Portfolio</Link>
