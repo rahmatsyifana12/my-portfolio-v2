@@ -13,7 +13,7 @@ function PortfolioSection() {
                 <div className="list row">
                     <div className="content col-12 col-lg-6 col-one">
                         <Link className="card mb-3" to={'/portfolio/bncc-bandung-platform'}>
-                            <img src="/images/portfolio-img/difabel.png" className="card-img" alt=""/>
+                            <img src="/images/portfolio-img/difabel1.png" className="card-img" alt=""/>
                             <div className="card-img-overlay d-flex">
                                 <div className="wrap">
                                     <p className="card-title mt-auto">Difabel</p>
@@ -48,8 +48,8 @@ function PortfolioSection() {
                         </Link>
                     </div>
                     <div className="content col-12 col-lg-6 col-two">
-                        <Link className="card mb-3">
-                            <img src="/images/portfolio-img/my-portfolio.png" className="card-img" alt=""/>
+                        <Link className="card mb-3" to={'/portfolio/personal-portfolio'}>
+                            <img src="/images/portfolio-img/my-portfolio1.png" className="card-img" alt=""/>
                             <div className="card-img-overlay mt-auto d-flex">
                                 <div className="wrap">
                                     <p className="card-title mt-auto">Portfolio</p>

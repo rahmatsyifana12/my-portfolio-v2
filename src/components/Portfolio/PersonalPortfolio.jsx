@@ -2,21 +2,21 @@ import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
 import './Portfolio.css';
 
-function BNCCBandungPlatform() {
+function PersonalPortfolio() {
     return (
         <div>
             <Navbar />
             <section id="portfolio" className="portfolio">
                 <div className="container">
                     <div className="port-title fw-bold mb-4">
-                        BNCC Bandung Platform
+                        Personal Portfolio
                     </div>
                     <div className="row">
                         <div className="col-md-6">
                             <div className="about-me">
                                 <div className="mb-2 desc fw-bold">Description</div>
                                 <p className="p-desc">
-                                    An LMS web application used for Learning and Training class activities at Bina Nusantara Computer Club.
+                                    My personal web-based portfolio.
                                 </p>
                             </div>
                         </div>
@@ -25,7 +25,7 @@ function BNCCBandungPlatform() {
                                 <div className="mb-2 desc fw-bold">Role</div>
                                 <p className="p-desc">
                                     <ul>
-                                        <li>Backend developer</li>
+                                        <li>Fullstack developer</li>
                                     </ul>
                                 </p>
                             </div>
@@ -39,7 +39,7 @@ function BNCCBandungPlatform() {
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                            <img src="/images/portfolio-img/difabel1.PNG" class="d-block w-100" alt="..."/>
+                            <img src="/images/portfolio-img/my-portfolio1.PNG" class="d-block w-100" alt="..."/>
                             </div>
                             <div class="carousel-item">
                             <img src="/images/portfolio-img/difabel1.PNG" class="d-block w-100" alt="..."/>
@@ -63,9 +63,8 @@ function BNCCBandungPlatform() {
                                 <div className="mb-2 mt-3 desc fw-bold">Jobs</div>
                                 <p className="p-desc">
                                     <ul>
-                                        <li>Created database design and collaborated with other developers to make all features.</li>
-                                        <li>Implemented jwt (jsonwebtoken) for website auth.</li>
-                                        <li>Implemented layered architecture design.</li>
+                                        <li>Designed the user interface.</li>
+                                        <li>Created the website from scratch.</li>
                                     </ul>
                                 </p>
                             </div>
@@ -75,11 +74,10 @@ function BNCCBandungPlatform() {
                                 <div className="mb-2 mt-3 desc fw-bold">Techstacks</div>
                                 <p className="p-desc">
                                     <ul>
-                                        <li>TypeScript</li>
-                                        <li>Node.js</li>
-                                        <li>Express.js</li>
-                                        <li>PostgreSQL</li>
-                                        <li>TypeORM</li>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>JavaScript</li>
+                                        <li>React.js</li>
                                     </ul>
                                 </p>
                             </div>
@@ -92,4 +90,4 @@ function BNCCBandungPlatform() {
     );
 }
 
-export default BNCCBandungPlatform;
+export default PersonalPortfolio;

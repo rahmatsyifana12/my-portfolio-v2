@@ -4,6 +4,7 @@ import Portfolio from './components/Portfolio/Portfolio';
 import About from './components/About/About';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import BNCCBandungPlatform from './components/Portfolio/BNCCBandungPlatform';
+import PersonalPortfolio from './components/Portfolio/PersonalPortfolio';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <Route exact path='/about' element={<About />} />
             <Route exact path='/portfolio' element={<Portfolio />} />
             <Route exact path='/portfolio/bncc-bandung-platform' element={<BNCCBandungPlatform />} />
+            <Route exact path='/portfolio/personal-portfolio' element={<PersonalPortfolio />} />
           </Route>
         </Routes>
       </ScrollToTop>
