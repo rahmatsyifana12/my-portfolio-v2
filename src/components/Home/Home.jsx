@@ -1,4 +1,4 @@
-import About from "../About/About";
+import AboutSection from "../About/AboutSection";
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
@@ -10,7 +10,7 @@ function Home() {
         <div>
             <Navbar />
             <HomeSection />
-            <About />
+            <AboutSection />
             <Skill />
             <Contact />
             <Footer />
