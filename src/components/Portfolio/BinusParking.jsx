@@ -2,21 +2,21 @@ import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
 import './Portfolio.css';
 
-function PersonalPortfolio() {
+function BinusParking() {
     return (
         <div>
             <Navbar />
             <section id="portfolio" className="portfolio">
                 <div className="container">
                     <div className="port-title fw-bold mb-4">
-                        Personal Portfolio
+                        Binus Parking
                     </div>
                     <div className="row">
                         <div className="col-md-6">
                             <div className="about-me">
                                 <div className="mb-2 desc fw-bold">Description</div>
                                 <p className="p-desc">
-                                    My personal web-based portfolio.
+                                    A console-based parking application that i developed to fulfill the final task of my data structure course.
                                 </p>
                             </div>
                         </div>
@@ -34,10 +34,22 @@ function PersonalPortfolio() {
                     <div id="carouselExampleIndicators" class="carousel slide mt-2 mb-2" data-bs-ride="carousel">
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                            <img src="/images/portfolio-img/my-portfolio1.PNG" class="d-block w-100" alt="..."/>
+                                <img src="/images/portfolio-img/binus-parking1.PNG" class="d-block w-100" alt="..."/>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/images/portfolio-img/binus-parking2.PNG" class="d-block w-100" alt="..."/>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/images/portfolio-img/binus-parking3.PNG" class="d-block w-100" alt="..."/>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/images/portfolio-img/binus-parking4.PNG" class="d-block w-100" alt="..."/>
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -56,7 +68,7 @@ function PersonalPortfolio() {
                                 <p className="p-desc">
                                     <ul>
                                         <li>Designed the user interface.</li>
-                                        <li>Created the website from scratch.</li>
+                                        <li>Created the application from scratch.</li>
                                     </ul>
                                 </p>
                             </div>
@@ -66,10 +78,7 @@ function PersonalPortfolio() {
                                 <div className="mb-2 mt-3 desc fw-bold">Techstacks</div>
                                 <p className="p-desc">
                                     <ul>
-                                        <li>HTML</li>
-                                        <li>CSS</li>
-                                        <li>JavaScript</li>
-                                        <li>React.js</li>
+                                        <li>C++</li>
                                     </ul>
                                 </p>
                             </div>
@@ -82,4 +91,4 @@ function PersonalPortfolio() {
     );
 }
 
-export default PersonalPortfolio;
+export default BinusParking;

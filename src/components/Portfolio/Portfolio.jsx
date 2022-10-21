@@ -66,6 +66,20 @@ function Portfolio() {
                                     </div>
                                 </div>
                             </Link>
+                            <Link className="card mb-3" to={'/portfolio/binus-parking'}>
+                                <img src="/images/portfolio-img/binus-parking1.png" className="card-img" alt=""/>
+                                <div className="card-img-overlay mt-auto d-flex">
+                                    <div className="wrap">
+                                        <p className="card-title mt-auto">Binus Parking</p>
+                                        <p className="card-text mt-auto">A simple parking application.</p>
+                                        <div className="tech-list">
+                                            <ul>
+                                                <li>C++</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Link>
                         </div>
                     </div>
                 </div>
