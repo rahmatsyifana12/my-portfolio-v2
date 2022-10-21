@@ -16,7 +16,7 @@ function AboutSection() {
                         <div className="about-me">
                             <div className="about-me-title fw-bold mb-2">Who am i?</div>
                             <p className="desc">
-                                I'm a technology enthusiast who really likes to look for problems and find ways to solve them. I have a high passion in the fields of web development, especially in back end. I am always interested in learning new things, collaborating with others, and trying new challenges.
+                                I'm a technology enthusiast who really likes to look for problems and find ways to solve them. I have a high passion in the fields of web development, especially in backend development. I am always interested in learning new things, collaborating with others, and trying new challenges.
                             </p>
                         </div>
                     </div>
