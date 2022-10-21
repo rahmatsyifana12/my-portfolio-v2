@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
 
@@ -13,7 +14,7 @@ function Portfolio() {
                     </div>
                     <div className="list row">
                         <div className="content col-12 col-lg-6 col-one">
-                            <a className="card mb-3">
+                            <Link className="card mb-3" to={'/portfolio/bncc-bandung-platform'}>
                                 <img src="/images/portfolio-img/difabel.png" className="card-img" alt=""/>
                                 <div className="card-img-overlay d-flex">
                                     <div className="wrap">
@@ -30,8 +31,8 @@ function Portfolio() {
                                         </div>
                                     </div>
                                 </div>
-                            </a>
-                            <a className="card mb-3">
+                            </Link>
+                            <Link className="card mb-3">
                                 <img src="/images/portfolio-img/alibaba-cloud-register-clone.png" className="card-img" alt=""/>
                                 <div className="card-img-overlay mt-auto d-flex">
                                     <div className="wrap">
@@ -46,10 +47,10 @@ function Portfolio() {
                                         </div>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                         <div className="content col-12 col-lg-6 col-two">
-                            <a className="card mb-3">
+                            <Link className="card mb-3">
                                 <img src="/images/portfolio-img/my-portfolio.png" className="card-img" alt=""/>
                                 <div className="card-img-overlay mt-auto d-flex">
                                     <div className="wrap">
@@ -64,7 +65,7 @@ function Portfolio() {
                                         </div>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

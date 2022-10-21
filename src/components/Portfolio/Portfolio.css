@@ -9,3 +9,11 @@
 .more:hover {
     color: crimson;
 }
+
+.port-title {
+    font-size: 24px;
+}
+
+.desc {
+    font-size: 18px;
+}
