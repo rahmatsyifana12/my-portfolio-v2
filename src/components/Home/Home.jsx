@@ -1,4 +1,5 @@
 import About from "../About/About";
+import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
 import Skill from "../Skill/Skill";
@@ -11,6 +12,7 @@ function Home() {
             <HomeSection />
             <About />
             <Skill />
+            <Contact />
             <Footer />
         </div>
     );
