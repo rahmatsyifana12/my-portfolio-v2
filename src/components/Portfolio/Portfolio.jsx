@@ -15,11 +15,11 @@ function Portfolio() {
                     <div className="list row">
                         <div className="content col-12 col-lg-6 col-one">
                             <Link className="card mb-3" to={'/portfolio/bncc-bandung-platform'}>
-                                <img src="/images/portfolio-img/difabel1.png" className="card-img" alt=""/>
+                                <img src="/images/portfolio-img/bncc1.png" className="card-img" alt=""/>
                                 <div className="card-img-overlay d-flex">
                                     <div className="wrap">
-                                        <p className="card-title mt-auto">Difabel</p>
-                                        <p className="card-text mt-auto">Difabel is a website that provide information about persons with disabilities.
+                                        <p className="card-title mt-auto">BNCC Bandung Platform</p>
+                                        <p className="card-text mt-auto">An LMS based web application used by BNCC Binus Bandung.
                                         </p>
                                         <div className="tech-list">
                                             <ul>
@@ -33,16 +33,17 @@ function Portfolio() {
                                 </div>
                             </Link>
                             <Link className="card mb-3">
-                                <img src="/images/portfolio-img/alibaba-cloud-register-clone.png" className="card-img" alt=""/>
+                                <img src="/images/portfolio-img/difabel1.png" className="card-img" alt=""/>
                                 <div className="card-img-overlay mt-auto d-flex">
                                     <div className="wrap">
-                                        <p className="card-title mt-auto">Alibaba Cloud Register Page Clone</p>
-                                        <p className="card-text mt-auto">A clone of Alibaba Cloud register page front-end.</p>
+                                        <p className="card-title mt-auto">Difabel</p>
+                                        <p className="card-text mt-auto">A website that provide information about persons with disabilities.</p>
                                         <div className="tech-list">
                                             <ul>
-                                                <li>HTML</li>
-                                                <li>CSS</li>
-                                                <li>JavaScript</li>
+                                                <li>Node.js</li>
+                                                <li>Express.js</li>
+                                                <li>TypeScript</li>
+                                                <li>PostgreSQL</li>
                                             </ul>
                                         </div>
                                     </div>

@@ -13,7 +13,7 @@ function Contact() {
                         </div>
                         <div className="info">
                             <div className="content-title fw-bold">Locate me</div>
-                            <div className="content">Cimahi, West Java, Indonesia</div>
+                            <div className="content">West Java, Indonesia</div>
                         </div>
                     </div>
                     <div className="col-lg contact-list d-flex col-two">
