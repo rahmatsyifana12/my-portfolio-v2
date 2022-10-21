@@ -1,11 +1,12 @@
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
+import HomeSection from "./HomeSection";
 
 function Home() {
     return (
         <div className="">
             <Navbar />
-            <h1>Home Page</h1>
+            <HomeSection />
             <Footer />
         </div>
     );

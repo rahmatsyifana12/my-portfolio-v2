@@ -24,7 +24,7 @@ function Navbar() {
                             <Link className="nav-link l" to={'/'}>Skills</Link>
                         </li>
                         <li className='nav-item'>
-                            <Link className="nav-link l" to={'/portfolios'}>Portfolio</Link>
+                            <Link className="nav-link l" to={'/portfolio'}>Portfolio</Link>
                         </li>
                         <li className="nav-item">
                             <a href="#contact" className="nav-link">Contact</a>
