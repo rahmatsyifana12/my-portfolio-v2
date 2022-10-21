@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import Typed from 'react-typed';
 
 function HomeSection() {
-    const strings = ['a student', 'a web developer', 'a tech enthusiast'];
+    const strings = ['student', 'web developer', 'tech enthusiast'];
     return (
         <section id="home" className="home">
             <div className="container">
@@ -29,8 +29,8 @@ function HomeSection() {
                             <div className="greet mb-5 mb-md-4">
                                 <div className="hello">Hi, my name is</div>
                                 <div className="name fw-bold">Rahmat Syifana Jaelani</div>
-                                <div className="a-what fw-bold">I am <span className="auto-type" style={{color: "crimson;"}}>
-                                        <Typed strings={strings} typeSpeed={80} backSpeed={80} />
+                                <div className="a-what fw-bold">I am a <span className="auto-type" style={{color: "crimson"}}>
+                                        <Typed strings={strings} typeSpeed={80} backSpeed={80} loop={true} />
                                     </span></div>
                             </div>
                             <Link className="my-portfolio-btn" to={'/portfolio'}>My Portfolio</Link>

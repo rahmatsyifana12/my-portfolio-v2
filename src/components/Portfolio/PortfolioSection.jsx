@@ -8,7 +8,7 @@ function PortfolioSection() {
                 <div className="topper">
                     <div className="title fw-bold">My Portfolio</div>
                     <div className="line mb-5" style={{width: "183.91px"}}></div>
-                    <Link className="more" to={'/portfolio'}>view more</Link>
+                    <Link className="more nav-link l" to={'/portfolio'} align="right">view more {'>>'}</Link>
                 </div>
                 <div className="list row">
                     <div className="content col-12 col-lg-6 col-one">
