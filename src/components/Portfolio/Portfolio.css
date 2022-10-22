@@ -17,3 +17,11 @@
 .desc {
     font-size: 18px;
 }
+
+.repo {
+    color: #fff;
+}
+
+.repo:hover {
+    color: crimson;
+}

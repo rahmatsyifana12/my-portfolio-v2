@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
 import './Portfolio.css';
@@ -31,6 +32,7 @@ function BinusParking() {
                             </div>
                         </div>
                     </div>
+                    <a className="repo" href="https://github.com/rahmatsyifana12/binus-parking">Visit Repository</a>
                     <div id="carouselExampleIndicators" class="carousel slide mt-2 mb-2" data-bs-ride="carousel">
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
