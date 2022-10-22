@@ -6,6 +6,7 @@ import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import BNCCBandungPlatform from './components/Portfolio/BNCCBandungPlatform';
 import PersonalPortfolio from './components/Portfolio/PersonalPortfolio';
 import BinusParking from './components/Portfolio/BinusParking';
+import Difabel from './components/Portfolio/Difabel';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route exact path='/portfolio/bncc-bandung-platform' element={<BNCCBandungPlatform />} />
             <Route exact path='/portfolio/personal-portfolio' element={<PersonalPortfolio />} />
             <Route exact path='/portfolio/binus-parking' element={<BinusParking />} />
+            <Route exact path='/portfolio/difabel' element={<Difabel />} />
           </Route>
         </Routes>
       </ScrollToTop>

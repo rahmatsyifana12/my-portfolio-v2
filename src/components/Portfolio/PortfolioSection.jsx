@@ -30,7 +30,7 @@ function PortfolioSection() {
                                 </div>
                             </div>
                         </Link>
-                        <Link className="card mb-3">
+                        <Link className="card mb-3" to={'/portfolio/difabel'}>
                             <img src="/images/portfolio-img/difabel1.png" className="card-img" alt=""/>
                             <div className="card-img-overlay mt-auto d-flex">
                                 <div className="wrap">
