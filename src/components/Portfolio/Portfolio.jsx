@@ -49,6 +49,20 @@ function Portfolio() {
                                     </div>
                                 </div>
                             </Link>
+                            <Link className="card mb-3" to={'/portfolio/binus-parking'}>
+                                <img src="/images/portfolio-img/binus-parking1.png" className="card-img" alt=""/>
+                                <div className="card-img-overlay mt-auto d-flex">
+                                    <div className="wrap">
+                                        <p className="card-title mt-auto">Binus Parking</p>
+                                        <p className="card-text mt-auto">A simple parking application.</p>
+                                        <div className="tech-list">
+                                            <ul>
+                                                <li>C++</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Link>
                         </div>
                         <div className="content col-12 col-lg-6 col-two">
                             <Link className="card mb-3" to={'/portfolio/personal-portfolio'}>
@@ -67,15 +81,18 @@ function Portfolio() {
                                     </div>
                                 </div>
                             </Link>
-                            <Link className="card mb-3" to={'/portfolio/binus-parking'}>
-                                <img src="/images/portfolio-img/binus-parking1.png" className="card-img" alt=""/>
+                            <Link className="card mb-3" to={'/portfolio/fixcycle'}>
+                                <img src="/images/portfolio-img/fixcycle1.png" className="card-img" alt=""/>
                                 <div className="card-img-overlay mt-auto d-flex">
                                     <div className="wrap">
-                                        <p className="card-title mt-auto">Binus Parking</p>
-                                        <p className="card-text mt-auto">A simple parking application.</p>
+                                        <p className="card-title mt-auto">Fixcycle</p>
+                                        <p className="card-text mt-auto">A mobile application that acts as an intermediary between motorcycle repair shops and customers.</p>
                                         <div className="tech-list">
                                             <ul>
-                                                <li>C++</li>
+                                                <li>JavaScript</li>
+                                                <li>Node.js</li>
+                                                <li>Express.js</li>
+                                                <li>PostgreSQL</li>
                                             </ul>
                                         </div>
                                     </div>
