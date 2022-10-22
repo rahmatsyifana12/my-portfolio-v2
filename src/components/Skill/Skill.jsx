@@ -20,17 +20,21 @@ function Skill() {
                                 <li style={{backgroundColor: "#F7DE1F", color: "#000"}}>
                                     <img src="/images/lang-logo/javascript.svg" alt=""/> JAVASCRIPT
                                 </li>
+                                <li style={{backgroundColor: "#01589C", color: "#fff"}}>
+                                    <img src="/images/lang-logo/typescript.png" style={{backgroundColor: "#fff"}} alt=""/> TYPESCRIPT
+                                </li>
                                 <li style={{backgroundColor: "#fff", color: "#000"}}>
                                     <img src="/images/lang-logo/java.svg" style={{backgroundColor: "#fff", color: "#000"}} alt=""/> JAVA
+                                </li>
+                                <li style={{backgroundColor: "#fff", color: "#000"}}>
+                                    <img src="/images/lang-logo/go.png" alt=""/>
+                                     GO
                                 </li>
                                 <li style={{backgroundColor: "#6181B6", color: "#fff"}}>
                                     <img src="/images/lang-logo/php.png" style={{backgroundColor: "#fff"}} alt=""/> PHP
                                 </li>
                                 <li style={{backgroundColor: "#fff", color: "#000"}}>
                                     <img src="/images/lang-logo/sql.png" alt=""/> SQL
-                                </li>
-                                <li style={{backgroundColor: "#01589C", color: "#fff"}}>
-                                    <img src="/images/lang-logo/typescript.png" style={{backgroundColor: "#fff"}} alt=""/> TYPESCRIPT
                                 </li>
                                 <li style={{backgroundColor: "#15344C", color: "#fff"}}>
                                     <img src="/images/lang-logo/python.svg" alt=""/>
@@ -84,6 +88,9 @@ function Skill() {
                                 </li>
                                 <li style={{backgroundColor: "#fff", color: "#FF6C37"}}>
                                     <img src="/images/lang-logo/postman.png" alt=""/> POSTMAN
+                                </li>
+                                <li style={{backgroundColor: "#fff", color: "#000"}}>
+                                    <img src="/images/lang-logo/docker.png" alt=""/> DOCKER
                                 </li>
                                 <li style={{backgroundColor: "#333333"}}>
                                     <img src="/images/lang-logo/figma.svg" alt=""/> FIGMA
