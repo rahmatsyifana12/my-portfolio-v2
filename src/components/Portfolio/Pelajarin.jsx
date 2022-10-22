@@ -31,6 +31,7 @@ function Pelajarin() {
                             </div>
                         </div>
                     </div>
+                    <a className="repo" href="https://github.com/Team-1-Compfest-14/be-smk-sea-sentosa-finalproject-compfest-14">Visit Repository</a>
                     <div id="carouselExampleIndicators" class="carousel slide mt-2 mb-2 carousel-dark" data-bs-ride="carousel">
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
