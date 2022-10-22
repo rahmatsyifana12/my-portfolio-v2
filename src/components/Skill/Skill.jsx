@@ -82,6 +82,9 @@ function Skill() {
                                 <li style={{backgroundColor: "#000"}}>
                                     <img src="/images/lang-logo/github.svg" alt=""/> GITHUB
                                 </li>
+                                <li style={{backgroundColor: "#fff", color: "#FF6C37"}}>
+                                    <img src="/images/lang-logo/postman.png" alt=""/> POSTMAN
+                                </li>
                                 <li style={{backgroundColor: "#333333"}}>
                                     <img src="/images/lang-logo/figma.svg" alt=""/> FIGMA
                                 </li>
