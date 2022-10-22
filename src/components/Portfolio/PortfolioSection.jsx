@@ -53,7 +53,7 @@ function PortfolioSection() {
                             <img src="/images/portfolio-img/my-portfolio1.png" className="card-img" alt=""/>
                             <div className="card-img-overlay mt-auto d-flex">
                                 <div className="wrap">
-                                    <p className="card-title mt-auto">Portfolio</p>
+                                    <p className="card-title mt-auto">Personal Portfolio</p>
                                     <p className="card-text mt-auto">My own website-based portfolio.</p>
                                     <div className="tech-list">
                                         <ul>

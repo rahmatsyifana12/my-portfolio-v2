@@ -41,19 +41,19 @@ function BNCCBandungPlatform() {
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="/images/portfolio-img/bncc1.PNG" class="d-block w-100" alt="..."/>
+                                <img src="/images/portfolio-img/bncc1.png" class="d-block w-100" alt="..."/>
                             </div>
                             <div class="carousel-item">
-                                <img src="/images/portfolio-img/bncc2.PNG" class="d-block w-100" alt="..."/>
+                                <img src="/images/portfolio-img/bncc2.png" class="d-block w-100" alt="..."/>
                             </div>
                             <div class="carousel-item">
-                                <img src="/images/portfolio-img/bncc3.PNG" class="d-block w-100" alt="..."/>
+                                <img src="/images/portfolio-img/bncc3.png" class="d-block w-100" alt="..."/>
                             </div>
                             <div class="carousel-item">
-                                <img src="/images/portfolio-img/bncc5.PNG" class="d-block w-100" alt="..."/>
+                                <img src="/images/portfolio-img/bncc5.png" class="d-block w-100" alt="..."/>
                             </div>
                             <div class="carousel-item">
-                                <img src="/images/portfolio-img/bncc4.PNG" class="d-block w-100" alt="..."/>
+                                <img src="/images/portfolio-img/bncc4.png" class="d-block w-100" alt="..."/>
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

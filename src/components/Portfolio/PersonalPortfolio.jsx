@@ -37,7 +37,7 @@ function PersonalPortfolio() {
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                            <img src="/images/portfolio-img/my-portfolio1.PNG" class="d-block w-100" alt="..."/>
+                            <img src="/images/portfolio-img/my-portfolio1.png" class="d-block w-100" alt="..."/>
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
