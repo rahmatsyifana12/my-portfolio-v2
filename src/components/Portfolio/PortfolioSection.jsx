@@ -21,9 +21,9 @@ function PortfolioSection() {
                                     </p>
                                     <div className="tech-list">
                                         <ul>
+                                            <li>TypeScript</li>
                                             <li>Node.js</li>
                                             <li>Express.js</li>
-                                            <li>TypeScript</li>
                                             <li>PostgreSQL</li>
                                         </ul>
                                     </div>
@@ -38,9 +38,9 @@ function PortfolioSection() {
                                     <p className="card-text mt-auto">A website that provide information about persons with disabilities.</p>
                                     <div className="tech-list">
                                         <ul>
+                                            <li>TypeScript</li>
                                             <li>Node.js</li>
                                             <li>Express.js</li>
-                                            <li>TypeScript</li>
                                             <li>PostgreSQL</li>
                                         </ul>
                                     </div>

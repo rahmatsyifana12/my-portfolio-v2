@@ -23,9 +23,9 @@ function Portfolio() {
                                         </p>
                                         <div className="tech-list">
                                             <ul>
+                                                <li>TypeScript</li>
                                                 <li>Node.js</li>
                                                 <li>Express.js</li>
-                                                <li>TypeScript</li>
                                                 <li>PostgreSQL</li>
                                             </ul>
                                         </div>
@@ -40,9 +40,9 @@ function Portfolio() {
                                         <p className="card-text mt-auto">A website that provide information about persons with disabilities.</p>
                                         <div className="tech-list">
                                             <ul>
+                                                <li>TypeScript</li>
                                                 <li>Node.js</li>
                                                 <li>Express.js</li>
-                                                <li>TypeScript</li>
                                                 <li>PostgreSQL</li>
                                             </ul>
                                         </div>
@@ -90,6 +90,23 @@ function Portfolio() {
                                         <div className="tech-list">
                                             <ul>
                                                 <li>JavaScript</li>
+                                                <li>Node.js</li>
+                                                <li>Express.js</li>
+                                                <li>PostgreSQL</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Link>
+                            <Link className="card mb-3" to={'/portfolio/pelajarin'}>
+                                <img src="/images/portfolio-img/pelajarin1.png" className="card-img" alt=""/>
+                                <div className="card-img-overlay mt-auto d-flex">
+                                    <div className="wrap">
+                                        <p className="card-title mt-auto">Pelajarin</p>
+                                        <p className="card-text mt-auto">An LMS web application used for teaching and learning.</p>
+                                        <div className="tech-list">
+                                            <ul>
+                                                <li>TypeScript</li>
                                                 <li>Node.js</li>
                                                 <li>Express.js</li>
                                                 <li>PostgreSQL</li>

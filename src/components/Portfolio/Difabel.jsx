@@ -16,7 +16,7 @@ function Difabel() {
                             <div className="about-me">
                                 <div className="mb-2 desc fw-bold">Description</div>
                                 <p className="p-desc">
-                                A web application that provides information about the distribution of people with disabilities using map distribution, provides the latest articles related to persons with disabilities and accepts donations.
+                                    A web application that provides information about the distribution of people with disabilities using map distribution, provides the latest articles related to persons with disabilities and accepts donations.
                                 </p>
                             </div>
                         </div>

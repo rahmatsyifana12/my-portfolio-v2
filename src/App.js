@@ -8,6 +8,7 @@ import PersonalPortfolio from './components/Portfolio/PersonalPortfolio';
 import BinusParking from './components/Portfolio/BinusParking';
 import Difabel from './components/Portfolio/Difabel';
 import Fixcycle from './components/Portfolio/Fixcycle';
+import Pelajarin from './components/Portfolio/Pelajarin';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route exact path='/portfolio/binus-parking' element={<BinusParking />} />
             <Route exact path='/portfolio/difabel' element={<Difabel />} />
             <Route exact path='/portfolio/fixcycle' element={<Fixcycle />} />
+            <Route exact path='/portfolio/pelajarin' element={<Pelajarin />} />
           </Route>
         </Routes>
       </ScrollToTop>
